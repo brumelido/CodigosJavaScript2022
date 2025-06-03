@@ -1,0 +1,42 @@
+#div1 { /*card*/
+    position: relative;
+    width: 450px;
+    height: 360px;
+    background-color: rgb(211, 12, 88); /*cor e fundo do card*/
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(252, 13, 104); /*sobra do card*/
+}
+#div2 { /*refernte ao link do youtube*/
+    position: relative;
+    top: -50px; /*posição do link do youtube*/
+    z-index: 3;
+}
+body{
+    background-color: rgb(5, 51, 59); /*cor de fundo da tela maior*/
+    z-index: 1;
+}
+.perfil img{
+    height: 150px;
+    width: 150px;
+    margin-top: -10%; /*centraliza no card o conjunto de informações*/
+    border-radius: 50%; /*deixa a imagem redonda*/
+    border: 3px solid black; /*cor da borda da imagem*/
+}
+h1 {
+    position: relative;
+    font-family: 'couler new', 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white; /*cor do titulo*/
+    top: -10px; /*posição da frase na tela*/
+    z-index: 4;
+}
+h2{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: white; /*cor do subtitulo*/
+    top: -50px; /*posição da frase na tela*/
+    z-index: 4;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="registro.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nome" placeholder="Nome:">
+    <input type="text" id="matricula" placeholder="Matrícula:">
+    <select id="curso">
+        <option value="Ciência da Computação">Ciência da Computação</option>
+        <option value="Engenharia da Computação">Engenharia da Computação</option>
+        <option value="Engenharia Civil">Engenharia Civil</option>
+        <option value="Medicina">Medicina</option>
+        <option value="Publicidade e Propaganda">Publicidade e Propaganda</option>
+    </select>
+    <button onclick="cadastro()">Registrar!</button>
+    <br>
+    Listar Por Curso: 
+    <select id="curso">
+        <option value="Ciência da Computação">Ciência da Computação</option>
+        <option value="Engenharia da Computação">Engenharia da Computação</option>
+        <option value="Engenharia Civil">Engenharia Civil</option>
+        <option value="Medicina">Medicina</option>
+        <option value="Publicidade e Propaganda">Publicidade e Propaganda</option>
+    </select>
+    <button onclick="listar()">Listar</button>
+    <br>
+    <label id="resposta"></label>
+</body>
+</html>

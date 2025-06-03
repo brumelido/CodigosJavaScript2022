@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <script src="Jogo.js" defer></script>
+    <link rel="stylesheet" href="Jogo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Simulator</title>
+</head>
+<body>
+    <h1>Board Simulator</h1>
+
+    <div id="nicknames" class="nicknames">
+        <div class="card-players">
+            <h3>Player 1</h3>
+            <label id="nick1">Escolha um nickname:</label>
+            <input type="text" id="nickname1">
+        </div>
+        <div class="card-players">
+            <h3>Player 2</h3>
+            <label id="nickname2">Escolha um nickname:</label>
+            <input type="text" id="nick2">
+        </div>
+        <button id="jogar" onclick="jogo()">Iniciar Jogo</button>
+    </div>
+  
+
+    <table class="tabuleiro" id="tabela"></table>
+    
+    <div id="jogo" class="jogo">
+        <div  id="menuPlayers" class="menuPlayers">
+            <h2 id="player">Escolha dos Jogadores:</h2>
+            <div class="botoes">
+                <button id="botRolar" onclick="rolarDados()">Rolar Dados</button>
+                <button id="botTomar" onclick="tomarAntidoto()">Tomar Antídoto</button>
+                <button id="botDesistir" onclick="desistir()">Desistir</button>
+            </div>
+        </div>
+        <div>
+            <h2>Status do Jogo</h2>
+            <div class="status">
+                <div>
+                    <h3>Extras:</h3>
+                    <table class="extra">
+                        <tr>
+                            <td rowspan="2" id="extra1">play 1</td>
+                            <td id="casa1">Está na casa início</td>
+                        </tr>
+                        <tr>
+                            <td id="estoque1">Antídotos: 3</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" id="extra2">play 2</td>
+                            <td id="casa2">Está na casa início</td>
+                        </tr>
+                        <tr>
+                            <td id="estoque2">Antídotos: 3</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h3>Acontecendo agora:</h3>
+                    <p id="status">Nenhum jogador no tabuleiro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Impar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <center>
+        <h1>Par ou Impar</h1>
+    <input type="text" id="nick1" value="" placeholder="Nickname 01(Par)">
+    <br>
+    <input type="number" id="esc1" placeholder="Número">
+    <br>
+    <br>
+    <input type="text" id="nick2" value="" placeholder="Nickname 02(Impar)">
+    <br>
+    <input type="number" id="esc2" placeholder="Número">
+    <br>
+    <br>
+    <button onclick="nick()" id="nick">Adicionar</button>
+    <br>
+    <br>
+    <button onclick="jogar()" id="travar" disabled="">Jogar</button>
+    <br>
+    <br>
+    Jogador(a) <h2><label id="nome1"></label> <label id="placar"></label></h2>
+    <br>
+    Jogador(a) <h2><label id="nome2"></label> <label id="placar2"></label></h2>
+    <br>
+    <h2><label id="aviso"></label></h2>
+    <br>
+    <h2><label id="parabens"></label></h2>
+    <br>
+    <label id="img"></label>
+    <br><br>
+    <button onclick="reiniciar()" id="rei">Reiniciar</button>
+
+    </center>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DPZenha Game</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <li>
+
+                <h1><img src="logo.png"></h1>
+                <h2>DPZenha Games</h2>
+            </li>
+        </div>
+
+    </header>
+
+    <main>
+        <ul class="carrinhoDeCompras">
+            <li>
+                <img src="carrinho.png">
+                <p id="carrinho"></p>
+                <p id="valorDaCompra"></p>
+                <input type="number" id="pagamento" placeholder="Digite o pagamento">
+                <button onclick="pagar()">Pagar Compra</button>
+                <button onclick="removeUlitmo()">Remover Último Jogo do Carrinho</button>
+                <button onclick="RemovePrimeiro()">Remover Primeiro Jogo do Carrinho</button>
+            </li>
+        </ul>
+
+        <ul id="produtos">
+            <li>
+                <h2>FIFA 23</h2>
+                <img src="fifa.jpg">
+                <p class="produto-descricao">FIFA 23 será o próximo jogo eletrônico de simulação de futebol em
+                    desenvolvimento pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e será
+                    lançado dia 30 de setembro de 2022,</p>
+                <p class="produto-preco">R$ 338,99</p>
+                <button onclick="addFifa()">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>God of War Ragnarök</h2>
+                <img src="gow.jpg">
+                <p class="produto-descricao">Derrote deuses e monstros nórdicos em combates fluidos e expressivos com
+                    armas de guerra.
+                    Embarque com Kratos e Atreus em uma jornada mítica em busca de respostas e aliados.</p>
+                <p class="produto-preco">R$ 349,99</p>
+                <button onclick="addGow()">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Mortal Kombat 11</h2>
+                <img src="mk11.jpg">
+                <p class="produto-descricao">Mortal Kombat 11 é um jogo eletrônico de luta desenvolvido pela NetherRealm
+                    Studios e publicado pela Warner Bros. Interactive Entertainment..</p>
+                <p class="produto-preco">R$ 89,99</p>
+                <button onclick="addMk()">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Resident Evil 4 Remake</h2>
+                <img src="re4.jpg">
+                <p class="produto-descricao">Resident Evil 4, conhecido no Japão como Biohazard RE:4, é um futuro jogo
+                    eletrônico de survival horror desenvolvido e publicado pela Capcom. É um remake de Resident Evil 4,
+                    lançado originalmente em 2005 para o Nintendo GameCube.</p>
+                <p class="produto-preco">R$ 319,99</p>
+                <button onclick="addRe4()">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>The Elder Scrolls V: Skyrim</h2>
+                <img src="skyrim.jpg">
+                <p class="produto-descricao">The Elder Scrolls V: Skyrim é um jogo eletrônico de RPG de ação
+                    desenvolvido pela Bethesda Game Studios e publicado pela Bethesda Softworks. É o quinto jogo
+                    principal da série The Elder Scrolls.</p>
+                <p class="produto-preco">R$ 149,99</p>
+                <button onclick="addSkyrim()">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Red Dead Redemption 2</h2>
+                <img src="red.jpg">
+                <p class="produto-descricao">Red Dead Redemption 2 é um jogo eletrônico de ação-aventura desenvolvido e
+                    publicado pela Rockstar Games. É o terceiro título da série Red Dead e uma prequela de Red Dead
+                    Redemption.</p>
+                <p class="produto-preco">R$ 239,99</p>
+                <button onclick="addRdr()">Adicionar ao Carrinho</button>
+            </li>
+        </ul>
+    </main>
+
+    <div class="final"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

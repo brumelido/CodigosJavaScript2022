@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO</title>
+    <script src="main.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <h1>PEDRA PAPEL TESOURA</h1>
+    <h2>Digite seu nome:</h2>
+    <input type="text" id="nick1" placeholder="Nickname 01" />
+    <input type="text" id="nick2" placeholder="Nickname 02 " />
+    <br><br>
+    <button onclick="nick()">adicionar nickname</button>
+    <br><br>
+    Usuários: <label id="usuarios"></label>
+    <br><br>
+    Jogador 1 ---- Jogador 2
+    <br>
+    <br>
+    <button onclick="pedra1()"><img src="pedra d.jpg" alt="pedra1"></button>
+    <button onclick="pedra2()"><img src="pedra e.jpg" alt="pedra2"></button>
+    <br>
+    <button onclick="papel1()"><img src="papel e.jpg" alt="papel1"></button>
+    <button onclick="pedra2()"><img src="papel d.jpg" alt="pedra2"></button>
+    <br>
+    <button onclick="tesoura1()"><img src="tesourra i.jpg" alt="tesoura1"></button>
+    <button onclick="tesoura2()"><img src="par d.jpg" alt="tesoura2"></button>
+    <br>
+    <br>
+    <button onclick="jogar()">jogar</button>
+    <br>
+    <label id="resposta"></label>
+    <br>
+    <label id="placar1"></label>
+    <br>
+    <label id="campeao"></label>
+    <br>
+    <label style="width: 300px;height: auto; " id="imagem"></label>
+</center>
+</body>
+</html>

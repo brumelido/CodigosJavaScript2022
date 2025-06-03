@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="JockeyClub.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jockey Club</title>
+</head>
+<body>
+    <center> 
+        <div>
+            <h1>Jockey Club</h1>
+            <table>
+                <tr>
+                    <td>Número do Cavalo |</td>
+                    <td>Nome do Cavalo</td>
+                </tr>
+                <tr>
+                    <td><center>1</td>
+                    <td>Cavalo Máximus</td>
+                </tr>
+                <tr>
+                    <td><center>2</td>
+                    <td>Cavalo Estrela</td>
+                </tr>
+                <tr>
+                    <td><center>3</td>
+                    <td>Cavalo Flash</td>
+                </tr>
+                <tr>
+                    <td><center>4</td>
+                    <td>Cavalo Nasa</td>
+                </tr>
+                <tr>
+                    <td><center>5</td>
+                    <td>Cavalo Bea</td>
+                </tr>
+            </tr>
+            </table>
+            <table>
+                <h2>Apostas</h2>
+                <tr>
+                    <td>Número do Cavalo |</td>
+                    <td>Nome do Cavalo |</td>
+                    <td>Nome do Apostador |</td>
+                    <td>Valor da aposta de Apostas</td>
+                </tr>
+                
+                <tr>
+                        <td><label id="respnmrdocavalo1"></label></td>
+                        <td><label id="respnomedocavalo1"></label></td>
+                        <td><label id="respnomedoapostador1"></label></td>
+                        <td><label id="respaposta1"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="respnmrdocavalo2"></label></td>
+                    <td><label id="respnomedocavalo2"></label></td>
+                    <td><label id="respnomedoapostador2"></label></td>
+                    <td><label id="respaposta2"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="respnmrdocavalo3"></label></td>
+                    <td><label id="respnomedocavalo3"></label></td>
+                    <td><label id="respnomedoapostador3"></label></td>
+                    <td><label id="respaposta3"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="respnmrdocavalo4"></label></td>
+                    <td><label id="respnomedocavalo4"></label></td>
+                    <td><label id="respnomedoapostador4"></label></td>
+                    <td><label id="respaposta4"></label></td>
+                </tr>
+                <tr>
+                    <td><label id="respnmrdocavalo5"></label></td>
+                    <td><label id="respnomedocavalo5"></label></td>
+                    <td><label id="respnomedoapostador5"></label></td>
+                    <td><label id="respaposta5"></label></td>
+                </tr>
+                
+            </table>
+            <table>
+                <tr>
+                    <td>Números de Apostas |</td>
+                    <td>Cavalo Máximus |</td>
+                    <td>Cavalo Estrela |</td>
+                    <td>Cavalo Flash |</td>
+                    <td>Cavalo Nasa |</td>
+                    <td>Cavalo Bea </td>
+                </tr>
+                <tr>
+                    <td><label for="totaldeapostas0"></label></td>
+                    <td><label id="totaldocavalo01"></label></td>
+                    <td><label id="totaldocavalo02"></label></td>
+                    <td><label id="totaldocavalo03"></label></td>
+                    <td><label id="totaldocavalo04"></label></td>
+                    <td><label id="totaldocavalo05"></label></td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <h3>Valor Total Arecadado:</h3>
+                    <label id="valor"></label>
+                    <br>
+                    <input type="text" id="nomedoapostador" placeholder="Nome do Apostador">
+                    <br>
+                    <input type="number" id="NmrDoCavalo" placeholder="Número do cavalo">
+                <br>
+                    <input type="number" name="" id="Aposta" placeholder="Valor da aposta">
+                <br>
+                <br>
+                    <button onclick="confirmar()">Confirmar</button>
+                    <br><br>
+                    <button onclick="sorteio()">sorteio</button>
+                </table>
+        </div>
+    </center>
+</body>
+</html>

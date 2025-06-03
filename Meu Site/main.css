@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    z-index: 1;
+}
+.retangulo img{
+    position: relative;
+    width: 30%
+    top: 100px
+    z-index: 2;
+};
+.perfil img{
+    position: relative;
+    width: 8%;
+    border-radius: 50%;
+    border: solid 30% white;
+    box-shadow: 0 0 20px black;
+    top: 170px;
+    z-index: 3;
+}

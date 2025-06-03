@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="JogoDaSorte.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+</head>
+<body>
+    <center>
+        <h1>Jogo Da Sorte</h1><button onclick="reiniciar()">Reniciar!</button>
+        <br><br>
+        Digite um número entre 1 e 100, o maior valor ganha!!!
+        <br><br>
+        Usuário 01:
+        <br><br>
+        <input type="number" id="x" placeholder="Número">
+        <br><br>
+        PC: 
+        <br><br>
+        <big><label id="nmr"></label> </big>
+        <br><br>
+        <button onclick="Jogar()" >Jogar!</button>
+        <br><br>
+        Resultado da partida:
+        <br><br>
+        <big><label id="resultado"></label></big>
+        <br><br>
+        <div style="visibility: hidden;" id="img"> 
+            <img src="felizz.jpg" alt="">
+        </div>     
+    </center>
+</body>
+</html>

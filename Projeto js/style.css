@@ -1,0 +1,152 @@
+body {
+	background-color: #c0c0c0;
+	position: absolute;
+	width: 100%;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+	height: 250px;
+}
+
+.banner {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.banner img {
+	position: relative;
+	bottom: 60px;
+	left: 265px;
+	max-width: 400px;
+}
+
+.banner h2 {
+	position: relative;
+	bottom: 100px;
+	left: 328px;
+	color: #0e8488;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+#produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+#produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-shadow: -3px 1px 3px 0px;
+
+}
+
+#produtos img {
+	width: 100%;
+	padding: 15px 0.5px 15px;
+}
+
+#produtos button {
+	background-color: #19b6bb;
+	width: 40%;
+	margin: 2% 2%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 4px;
+}
+
+#produtos button:hover, .carrinhoDeCompras button:hover {
+	background-color: #C78C19;
+}
+
+#produtos button:active, .carrinhoDeCompras button:active {
+	background-color: #088C19;
+}
+
+#produtos li:hover, .carrinhoDeCompras li:hover {
+	border-color: #C78C19;
+}
+
+#produtos li:active, .carrinhoDeCompras li:active {
+	border-color: #088C19;
+}
+
+#produtos li:hover h2 {
+	font-size: 30px;
+}
+
+#produtos h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 0 0 7px;
+}
+.carrinhoDeCompras {
+	position: relative;
+	left: 314px;
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 0 30px;
+}
+.carrinhoDeCompras li {
+	text-align: center;
+	font-size: 17px;
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+.carrinhoDeCompras img {
+	width: 50px;
+}
+.carrinhoDeCompras input {
+	width: 60%;
+	height: 18px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.carrinhoDeCompras button {
+	background-color: #19b6bb;
+	width: 150px;
+	height: 40px;
+	margin: 2% 5%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 2px ;
+}
+#valorDaCompra {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 0 0 7px;
+}
+.final {
+	background: #000000;
+	padding: 20px 0;
+	height: 100px;
+}
